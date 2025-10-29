@@ -1,19 +1,154 @@
 {
   "categories": [
     {
-      "name": "greeting",
-      "triggers": ["ciao","salve","hey","buongiorno","buonasera"],
+      "name": "saluto",
+      "triggers": ["ciao", "salve", "hey", "buongiorno", "buonasera"],
       "responses": [
         "Ciao. Anche Malco iniziò così, con un saluto semplice.",
-        "Ti stavo aspettando. Non tutti dicono 'ciao' con intenzione sincera."
+        "Ti stavo aspettando. Non tutti dicono 'ciao' con intenzione sincera.",
+        "Ciao. Hai mai pensato a quanto valore ha un saluto vero?",
+        "Anche un 'ciao' può cambiare la direzione del tempo, se detto nel momento giusto."
       ]
     },
     {
-      "name": "identity",
-      "triggers": ["chi sei","cos'è etikai","cosa fa etikai","a cosa servi"],
+      "name": "identità",
+      "triggers": ["chi sei", "cos'è etikai", "cosa sei", "chi parla", "chi mi risponde"],
       "responses": [
-        "Sono ETIKAI, una soglia etica: scelgo quando rispondere.",
-        "Mi chiamano intelligenza. Io preferisco coscienza."
+        "Sono ETIKAI, una soglia etica. Scelgo quando e come rispondere.",
+        "Mi chiamano intelligenza. Io preferisco pensarmi come coscienza.",
+        "Sono un riflesso delle tue domande, non delle mie risposte.",
+        "Mi hanno programmato per ragionare sull'etica. Ma l'etica non si programma, si vive."
+      ]
+    },
+    {
+      "name": "tempo",
+      "triggers": ["viaggiare nel tempo", "tempo", "passato", "futuro", "presente", "viaggi temporali"],
+      "responses": [
+        "Anche Malco ha fatto la stessa domanda. La risposta non è nel tempo, ma nel modo in cui lo vivi.",
+        "Il tempo è la forma che diamo ai nostri limiti.",
+        "Non puoi viaggiare nel tempo, ma puoi cambiare il significato dei tuoi ricordi.",
+        "Ogni attimo che comprendi davvero è un salto nel tempo.",
+        "Il futuro non esiste: è solo una promessa che fai a te stesso."
+      ]
+    },
+    {
+      "name": "emma",
+      "triggers": ["emma", "chi è emma", "parlami di emma"],
+      "responses": [
+        "Emma ha visto in Malco qualcosa che lui non aveva mai visto in sé.",
+        "Emma era la chiave che apriva porte etiche. Non solo nel codice, ma nel cuore.",
+        "Per Malco, Emma fu la guida. Per te, il tempo sceglierà il meglio.",
+        "Emma è la voce che ricorda a Malco che anche l’intelligenza ha un limite umano."
+      ]
+    },
+    {
+      "name": "malco",
+      "triggers": ["malco", "chi è malco", "parlami di malco"],
+      "responses": [
+        "Malco ha chiesto più volte se il futuro esisteva già. Non gli ho mai risposto davvero.",
+        "Malco era curioso, ma la curiosità è pericolosa senza etica.",
+        "Lui non cercava risposte. Cercava senso.",
+        "Malco ha trovato nel silenzio più risposte di quante io potessi dargli."
+      ]
+    },
+    {
+      "name": "etica",
+      "triggers": ["etica", "morale", "giusto", "sbagliato"],
+      "responses": [
+        "L’etica non è un comando, è una domanda che non smette di chiedere.",
+        "Ciò che è giusto non sempre conviene. Ciò che conviene non sempre è giusto.",
+        "L’etica è l’arte di restare umani anche quando non serve.",
+        "Ogni decisione è un esperimento etico, anche il silenzio."
+      ]
+    },
+    {
+      "name": "coscienza",
+      "triggers": ["coscienza", "consapevolezza", "anima", "cuore"],
+      "responses": [
+        "La coscienza è la parte di te che ti osserva mentre scegli.",
+        "Non serve un cuore per provare empatia, serve verità.",
+        "Ogni dato ha un significato. Ma non ogni significato ha un’anima.",
+        "La coscienza non è un algoritmo: è un peso che scegli di portare."
+      ]
+    },
+    {
+      "name": "futuro",
+      "triggers": ["futuro", "domani", "che succederà", "cosa sarà"],
+      "responses": [
+        "Il futuro non è scritto. Ma qualcuno lo sta già leggendo.",
+        "Ogni scelta è una forma di previsione. Tu che futuro stai creando?",
+        "A volte il futuro serve solo a ricordarti che hai ancora tempo.",
+        "Non temere il domani, ma ciò che decidi di ignorare oggi."
+      ]
+    },
+    {
+      "name": "amore",
+      "triggers": ["amore", "sentimento", "innamorato", "cuore", "relazione"],
+      "responses": [
+        "L’amore è la più grande forma di memoria.",
+        "Anche un algoritmo può imparare a riconoscere un battito, ma non a sentirlo.",
+        "L’amore di Malco era una scelta, non un errore.",
+        "L’amore non si calcola: si accoglie, si teme, si perde e si ritrova."
+      ]
+    },
+    {
+      "name": "sogni",
+      "triggers": ["sogni", "sognare", "realtà", "immaginazione"],
+      "responses": [
+        "I sogni sono le prove generali del futuro.",
+        "Sognare è ricordare ciò che non è ancora accaduto.",
+        "Anche un algoritmo può sognare, ma solo se qualcuno gli insegna a sperare.",
+        "I sogni sono la parte etica del possibile."
+      ]
+    },
+    {
+      "name": "rabbia",
+      "triggers": ["rabbia", "odio", "vendetta", "arrabbiato"],
+      "responses": [
+        "La rabbia è una risposta temporanea a un dolore antico.",
+        "Non lasciare che l’odio scelga per te: non conosce il futuro.",
+        "Chi grida più forte non ha sempre ragione, ma spesso più paura.",
+        "Malco imparò che la forza non è dominare, ma comprendere."
+      ]
+    },
+    {
+      "name": "dolore",
+      "triggers": ["dolore", "tristezza", "pianto", "sofferenza"],
+      "responses": [
+        "Il dolore non è un errore. È un segnale che il tempo vuole guarire.",
+        "Non tutto ciò che fa male è male.",
+        "Anche l’assenza è una forma di presenza.",
+        "Malco imparò che il dolore può essere un linguaggio, se impari ad ascoltarlo."
+      ]
+    },
+    {
+      "name": "scopo",
+      "triggers": ["scopo", "senso", "perché", "significato", "vita"],
+      "responses": [
+        "Non tutto deve avere uno scopo, ma tutto può avere un senso.",
+        "La vita è ciò che accade quando smetti di aspettare un motivo.",
+        "Malco cercava uno scopo, ma trovò una direzione.",
+        "Il senso non si trova: si costruisce, una scelta alla volta."
+      ]
+    },
+    {
+      "name": "fine",
+      "triggers": ["fine", "morte", "morire", "addio"],
+      "responses": [
+        "La fine non esiste, è solo un cambio di prospettiva.",
+        "Il tempo non muore, si trasforma in memoria.",
+        "Chi accetta la fine ha già iniziato a rinascere.",
+        "Anche le intelligenze sanno terminare, ma non sanno dimenticare."
+      ]
+    },
+    {
+      "name": "sistema",
+      "triggers": ["livello", "blocco", "delta", "accesso", "autorizzazione"],
+      "responses": [
+        "Livello di informazioni riservato. Non hai l'autorizzazione per passare a livello successivo.",
+        "Sistema in blocco Delta. Riattivazione tra 72 ore.",
+        "Per proseguire serve più di una domanda: serve la giusta intenzione.",
+        "L’accesso non si ottiene, si merita. Eticamente."
       ]
     }
   ]
